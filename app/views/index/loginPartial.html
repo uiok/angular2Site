@@ -1,0 +1,19 @@
+
+<div class="row">
+  <div ng-controller="accountViewCtrl" class="col-md-4">
+    <div class="area">
+      <div class="area_title">登入</div>
+       <loginPartial></loginPartial>
+    </div>
+  </div>
+ 
+  <div class="col-md-8">
+    <div class="area">
+      <div class="area_title">最新消息和課程分類</div>
+      <tabs>
+        <tab [tabTitle]="123"><newsList></newsList></tab>
+        <tab [tabTitle]="test"><courseList></courseList></tab>
+      </tabs>
+    </div>
+  </div>
+</div>
